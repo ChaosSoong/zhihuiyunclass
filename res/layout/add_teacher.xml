@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:text="用户"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <EditText 
+        android:id="@+id/et_teacher_id "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    
+    <TextView
+        android:text="密码"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <EditText 
+        android:id="@+id/et_teacher_password "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+  
+    <TextView
+        android:text="姓名"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <EditText 
+        android:id="@+id/et_teacher_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:text="班级"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <EditText 
+        android:id="@+id/et_teacher_classes"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:text="性别"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <EditText 
+        android:id="@+id/et_teacher_sex"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:text="年龄"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <EditText 
+        android:id="@+id/et_teacher_age"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <Button 
+        android:id="@+id/btn_add_teacher"
+        android:text="send"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+</LinearLayout>

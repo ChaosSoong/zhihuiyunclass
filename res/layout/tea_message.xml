@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:text="标题"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <EditText 
+        android:id="@+id/et_mtitle "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    
+    <TextView
+        android:text="内容"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <EditText 
+        android:id="@+id/et_mtext "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+  
+    
+    <TextView
+        android:text="时间"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <EditText 
+        android:id="@+id/et_mtime "
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <Button 
+        android:id="@+id/btn_send"
+        android:text="send"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+</LinearLayout>
